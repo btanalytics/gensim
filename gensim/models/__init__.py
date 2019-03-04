@@ -4,6 +4,7 @@ bag-of-word counts.
 """
 
 # bring model classes directly into package namespace, to save some typing
+from .ctmmodel import CtmModel
 from .hdpmodel import HdpModel
 from .ldamodel import LdaModel
 from .ldamallet import LdaMallet
